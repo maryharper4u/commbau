@@ -151,19 +151,19 @@ export default function Dashboard() {
 
         <div className="border flex flex-col gap-4 p-6 px-4">
           <div className="border flex flex-col gap-4 bg-white overflow-hidden">
-            <Image src="https://i.imgur.com/ipyxK7c.png" width={5000} height={5000} className="" alt="sjsusbnnsn" />
+            <Image src="https://i.postimg.cc/02FX2QxM/canada-impactful-travel-deer-W375-H200-fit-crop-crop-N-0-0.jpg" width={5000} height={5000} className="" alt="sjsusbnnsn" />
 
             <div className="text-center text-black p-3 px-7 pb-7">
-              <span className="font-bold">Paze℠ offers added security</span> <br />
-              <span>A convenient way to use your eligible cards at select merchants</span>
+              <span className="font-bold">Take a trip that brings connection</span> <br />
+              <span>[Sponsored] From guided forest walks to experiences supporting local stewards, enjoy travel for good.</span>
             </div>
           </div>
           <div className="border flex flex-col gap-4 bg-white overflow-hidden">
-            <Image src="https://i.imgur.com/83YqjkA.png" width={5000} height={5000} className="" alt="sjsusbnnsn" />
+            <Image src="https://i.postimg.cc/J4vY4nmq/CBA-Masterclass-florist-W375-H200-fit-crop.jpg" width={5000} height={5000} className="" alt="sjsusbnnsn" />
 
             <div className="text-center text-black p-3 px-7 pb-7">
-              <span className="font-bold">Why we're committed to communities</span> <br />
-              <span>We don't just serve our communities—we are our communities. We're committed to helping customers and neighborhoods across the country thrive.</span>
+              <span className="font-bold">Introducing Business Masterclass</span> <br />
+              <span>Discover our series of practical learning modules across the topics that matter most to businesses. Upskill today, to tackle tomorrow.</span>
             </div>
           </div>
         </div>

@@ -26,7 +26,7 @@ const TransactionHistory: React.FC<TransactionHistoryProps> = ({ user, hideBalan
         <div className="text-[14px] rounded bg-[#aa8406]/10 p-2 w-full font-[500] flex items-center justify-between">
           <span>Recent Transactions</span>
           {hasTransactions && (
-            <Link href="/dashboard/transactions" className="text-[13px] font-[500] text-[#aa8406]">
+            <Link href="/dashboard/transactions" className="text-[13px] font-[500] text-black">
               See More
             </Link>
           )}
