@@ -1,6 +1,5 @@
 "use client";
 
-import { UimBars } from "@/components/svgIcons";
 import Image from "next/image";
 import React, { useState } from "react";
 import { RiLogoutCircleLine } from "react-icons/ri";
@@ -13,12 +12,12 @@ export default function Header({ handleLogout, user }: any) {
   };
 
   return (
-    <div className="w-full min-h-[30px] relative flex items-center justify-between bg-[#aa8406] border-b-4 border-[#ffcd41] p-[16px] py-[15px]">
+    <div className="w-full min-h-[30px] relative flex items-center justify-between bg-[#aa8406] border-b-4 border-[#ffcd41] p-[16px] py-[10px]">
       <Image
-        src="https://i.imgur.com/HCpm00D.png"
-        width={200}
-        height={200}
-        className="w-[130px] h-[13px]"
+        src="https://i.postimg.cc/VsgLTJnQ/comm-Bank-logo-removebg-preview.png"
+        width={50}
+        height={50}
+        className="w-[40px] h-[40px]"
         alt="logo"
       />
       <div className="relative">
@@ -30,8 +29,8 @@ export default function Header({ handleLogout, user }: any) {
 
         {open && (
           <div className="absolute mt-1 z-50 shadow bg-white border py-2 rounded-md right-0 flex flex-col justify-center gap-[5px]">
-            <p className="text-[14px] px-[15px] py-[5px] whitespace-nowrap font-medium text-[#aa8406]">
-              {user.holder.fullName}&nbsp;{user.holder.lastName}
+            <p className="text-[14px] px-[15px] py-[5px] whitespace-nowrap font-medium text-black">
+              {user.holder.fullName}
             </p>
             <p
               className="text-[14px] m-1 px-[15px] text-center rounded-md py-[5px] bg-[#aa8406] border whitespace-nowrap text-white"
