@@ -18,7 +18,7 @@ export default function Header({ handleLogout, user }: any) {
   };
 
   return (
-    <div className="w-full min-h-[30px] relative flex items-center justify-between bg-[#d71e28] border-b-4 border-[#ffcd41] p-[16px] py-[15px]">
+    <div className="w-full min-h-[30px] relative flex items-center justify-between bg-[#aa8406] border-b-4 border-[#ffcd41] p-[16px] py-[15px]">
       <div className="flex items-center justify-between gap-3 w-full">
         <Image
           src="https://i.imgur.com/HCpm00D.png"
@@ -36,7 +36,7 @@ export default function Header({ handleLogout, user }: any) {
               <IoIosArrowBack onClick={closeNav} />
               <span className="text-[#252525] font-semibold">My Profile</span>
             </div>
-            <button onClick={handleLogout} className="p-3 py-2 rounded-lg border-none outline-none font-medium border bg-[#d71e28] text-white text-sm">Sign out</button>
+            <button onClick={handleLogout} className="p-3 py-2 rounded-lg border-none outline-none font-medium border bg-[#aa8406] text-white text-sm">Sign out</button>
           </div>
           <div className="p-4">
             <div className="bg-white text-sm rounded-lg p-5 py-7 flex flex-col items-center justify-center gap-8 mb-4">
@@ -65,7 +65,7 @@ export default function Header({ handleLogout, user }: any) {
               <div className="flex w-full justify-between items-center">
                 <span className="text-[#3f3f3f] font-normal">Email</span>
                 <span className="text-[#252525] font-medium flex items-center gap-1">
-                  <span className="bg-[#d71e28]/30 text-black text-xs p-2 py-1 rounded-lg flex items-center gap-1">
+                  <span className="bg-[#aa8406]/30 text-black text-xs p-2 py-1 rounded-lg flex items-center gap-1">
                     Verified <GoCheckCircleFill />
                   </span>
                   <span>{user.holder.email}</span>

@@ -23,10 +23,10 @@ const TransactionHistory: React.FC<TransactionHistoryProps> = ({ user, hideBalan
   return (
     <div className="px-[16px]">
       <div className="w-full">
-        <div className="text-[14px] rounded bg-[#d71e28]/10 p-2 w-full font-[500] flex items-center justify-between">
+        <div className="text-[14px] rounded bg-[#aa8406]/10 p-2 w-full font-[500] flex items-center justify-between">
           <span>Recent Transactions</span>
           {hasTransactions && (
-            <Link href="/dashboard/transactions" className="text-[13px] font-[500] text-[#d71e28]">
+            <Link href="/dashboard/transactions" className="text-[13px] font-[500] text-[#aa8406]">
               See More
             </Link>
           )}
@@ -37,7 +37,7 @@ const TransactionHistory: React.FC<TransactionHistoryProps> = ({ user, hideBalan
             transactionsToShow.map((transaction: Transaction) => (
               <div key={transaction.transaction_id} className="flex justify-between py-3">
                 <div className="flex gap-2 text-gray-800">
-                  <button className="border-none flex items-center justify-center outline-none rounded-full w-[35px] h-[35px] bg-[#d71e28]/10">
+                  <button className="border-none flex items-center justify-center outline-none rounded-full w-[35px] h-[35px] bg-[#aa8406]/10">
                     <HiArrowDown className={`${transaction.amount_usd < 0 ? 'rotate-180' : ''}`} />
                   </button>
                   <div className="flex flex-col gap-1 justify-between">

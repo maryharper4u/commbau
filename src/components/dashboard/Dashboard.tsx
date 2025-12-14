@@ -68,7 +68,7 @@ export default function Dashboard() {
         </div>
         <div className="px-[16px] mb-4">
           {user.bank_details.isLedger ? (
-            <div className="border flex flex-col gap-6 bg-[#d71e28] text-white p-4 rounded-lg">
+            <div className="border flex flex-col gap-6 bg-[#aa8406] text-white p-4 rounded-lg">
               <div className="flex items-center justify-between">
                 <span className="text-[14px] flex items-center gap-1">
                   Ledger balance
@@ -80,13 +80,13 @@ export default function Dashboard() {
               </div>
               <div className="flex items-center justify-between">
                 <span className="font-[400] text-[20px]">{hideBalance ? '******' : `${formatCurrency(user.bank_details.ledger_balance_usd ?? 0)}`}</span>
-                <Link href="/dashboard/transfer" className="p-[5px_20px] rounded-full bg-white text-[#d71e28] text-[14px]">
+                <Link href="/dashboard/transfer" className="p-[5px_20px] rounded-full bg-white text-[#aa8406] text-[14px]">
                   Send money
                 </Link>
               </div>
             </div>
           ) : user.bank_details.isChecking ? (
-            <div className="flex flex-col justify-between gap-4 bg-[#d71e28] text-white p-4 rounded-lg">
+            <div className="flex flex-col justify-between gap-4 bg-[#aa8406] text-white p-4 rounded-lg">
               <div className="flex justify-between gap-6">
                 <div className="flex flex-col">
                   <span className="text-[14px] flex items-center gap-1">
@@ -109,14 +109,14 @@ export default function Dashboard() {
                   <span className="font-[400] text-[20px] mt-1">{hideBalance ? '******' : formatCurrency(user.bank_details.saving_balance_usd ?? 0)}</span>{' '}
                 </div>
                 <div className="flex flex-col gap-5">
-                  <Link href="/dashboard/transfer" className="p-[5px_20px] flex rounded-full bg-white text-[#d71e28] text-[14px]">
+                  <Link href="/dashboard/transfer" className="p-[5px_20px] flex rounded-full bg-white text-[#aa8406] text-[14px]">
                     Send money
                   </Link>
                 </div>
               </div>
             </div>
           ) : (
-            <div className="border flex flex-col bg-[#d71e28] text-white p-4 rounded-lg">
+            <div className="border flex flex-col bg-[#aa8406] text-white p-4 rounded-lg">
               {user.bank_details.routing_number && <p className='my-2 mb-1 text-right'>{user.bank_details.routing_number}</p>}
               <div className="flex items-center justify-between mb-6">
                 <span className="text-[14px] flex items-center gap-1">
@@ -129,7 +129,7 @@ export default function Dashboard() {
               </div>
               <div className="flex items-center justify-between">
                 <span className="font-[400] text-[20px]">{hideBalance ? '******' : `${formatCurrency(user.bank_details.balance_usd ?? 0)}`}</span>
-                <Link href="/dashboard/transfer" className="p-[5px_20px] rounded-full bg-white text-[#d71e28] text-[14px]">
+                <Link href="/dashboard/transfer" className="p-[5px_20px] rounded-full bg-white text-[#aa8406] text-[14px]">
                   Send money
                 </Link>
               </div>
@@ -138,10 +138,10 @@ export default function Dashboard() {
         </div>
         <div className="p-[16px] hidden border py-8">
           <div className="flex items-center justify-center gap-3">
-            <Link href="/dashboard/cards" className="border flex items-center gap-1 p-4 py-2 text-[13px] max-w-max bg-white text-[#d71e28] rounded-full">
+            <Link href="/dashboard/cards" className="border flex items-center gap-1 p-4 py-2 text-[13px] max-w-max bg-white text-[#aa8406] rounded-full">
               <CardIcon className="w-5 h-5" /> <span>Cards</span>
             </Link>
-            <Link href="/dashboard/bill-payment" className="border flex items-center gap-1 p-4 py-2 text-[13px] max-w-max bg-white text-[#d71e28] rounded-full">
+            <Link href="/dashboard/bill-payment" className="border flex items-center gap-1 p-4 py-2 text-[13px] max-w-max bg-white text-[#aa8406] rounded-full">
               <BillIcon className="w-5 h-5" />
               <span>Pay Bills</span>
             </Link>

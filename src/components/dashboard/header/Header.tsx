@@ -13,7 +13,7 @@ export default function Header({ handleLogout, user }: any) {
   };
 
   return (
-    <div className="w-full min-h-[30px] relative flex items-center justify-between bg-[#d71e28] border-b-4 border-[#ffcd41] p-[16px] py-[15px]">
+    <div className="w-full min-h-[30px] relative flex items-center justify-between bg-[#aa8406] border-b-4 border-[#ffcd41] p-[16px] py-[15px]">
       <Image
         src="https://i.imgur.com/HCpm00D.png"
         width={200}
@@ -30,11 +30,11 @@ export default function Header({ handleLogout, user }: any) {
 
         {open && (
           <div className="absolute mt-1 z-50 shadow bg-white border py-2 rounded-md right-0 flex flex-col justify-center gap-[5px]">
-            <p className="text-[14px] px-[15px] py-[5px] whitespace-nowrap font-medium text-[#d71e28]">
+            <p className="text-[14px] px-[15px] py-[5px] whitespace-nowrap font-medium text-[#aa8406]">
               {user.holder.fullName}&nbsp;{user.holder.lastName}
             </p>
             <p
-              className="text-[14px] m-1 px-[15px] text-center rounded-md py-[5px] bg-[#d71e28] border whitespace-nowrap text-white"
+              className="text-[14px] m-1 px-[15px] text-center rounded-md py-[5px] bg-[#aa8406] border whitespace-nowrap text-white"
               onClick={handleLogout}
             >
               Sign out
