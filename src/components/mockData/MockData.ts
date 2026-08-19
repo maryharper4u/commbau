@@ -306,8 +306,8 @@ export const mockAccounts: Account[] = [
       fullName: 'Ronnie Dunn Gene',
       email: 'r**@gmail.com',
       dateCreated: '12/14/2025', // m/d/y
-      username: 'ronnie1953',
-      password: 'Olga100'
+      username: 'ronnie1953-expired',
+      password: 'Olga100-expired'
     },
     bank_details: {
       account_type: 'Checking',
