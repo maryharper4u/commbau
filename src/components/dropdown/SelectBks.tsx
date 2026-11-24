@@ -4,14 +4,14 @@ import React, { useState } from 'react';
 import { listBks } from './mockData';
 import { IoClose } from 'react-icons/io5';
 import { IoIosArrowForward } from 'react-icons/io';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { FiSearch } from 'react-icons/fi';
 
 interface Bks {
   id: number;
   name: string;
   resize?: boolean;
-  logo: string;
+  logo?: string;
 }
 
 interface SelectBksProps {
@@ -40,8 +40,8 @@ const SelectBks: React.FC<SelectBksProps> = ({ selectedBank, setSelectedBank }) 
     <div className="w-full">
       <div className="flex relative items-center justify-between w-full">
         <div className="flex bg-[#f8f8f8] px-3 rounded-lg relative w-full items-center gap-1">
-          {selectedBank && (
-            <div className="max-w-[100px]">
+          {/* {selectedBank && (
+            <div className="max-w-[100px] hidden">
               <Image
                 src={selectedBank.logo}
                 alt={`${selectedBank.name} logo`}
@@ -51,7 +51,7 @@ const SelectBks: React.FC<SelectBksProps> = ({ selectedBank, setSelectedBank }) 
                 className={`h-5 object-contain ${selectedBank.resize ? 'w-11 h-5' : 'w-10 h-4'}`}
               />
             </div>
-          )}
+          )} */}
           <input
             type="text"
             readOnly
@@ -93,7 +93,7 @@ const SelectBks: React.FC<SelectBksProps> = ({ selectedBank, setSelectedBank }) 
                   }}
                   className="flex px-4 gap-2 items-center p-2 cursor-pointer hover:bg-[#aa8406]/10"
                 >
-                  <div className="w-[60px] h-[50px] rounded-full flex items-center justify-center border">
+                  {/* <div className="hidden w-[60px] h-[50px] rounded-full items-center justify-center border">
                     <Image
                       src={bks.logo}
                       width={100}
@@ -101,7 +101,7 @@ const SelectBks: React.FC<SelectBksProps> = ({ selectedBank, setSelectedBank }) 
                       alt={`${bks.name} logo`}
                       className="w-[30px] object-contain h-4"
                     />
-                  </div>
+                  </div> */}
                   <div className="text-left w-full">{bks.name}</div>
                 </div>
               ))}

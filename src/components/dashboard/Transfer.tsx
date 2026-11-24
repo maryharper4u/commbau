@@ -14,7 +14,7 @@ import { getInitials } from "../getInitials";
 interface Bks {
   id: number;
   name: string;
-  logo: string;
+  logo?: string;
 }
 
 interface FormErrors {
@@ -116,21 +116,21 @@ export default function Transfer() {
       if (!formData.routingNumber) {
         errors.routingNumber = "Routing number is required";
       } else if (
-        formData.routingNumber.length < 9 ||
+        formData.routingNumber.length < 3 ||
         formData.routingNumber.length > 12
       ) {
-        errors.routingNumber = "Routing number must be between 9 and 12 digits";
+        errors.routingNumber = "Routing number must be between 3 and 15 digits";
       }
 
       if (isAccountNumber) {
         if (!formData.accountNumber) {
           errors.accountNumber = "Account number is required";
         } else if (
-          formData.accountNumber.length < 8 ||
-          formData.accountNumber.length > 12
+          formData.accountNumber.length < 3 ||
+          formData.accountNumber.length > 20
         ) {
           errors.accountNumber =
-            "Account number must be between 8 and 12 digits";
+            "Account number must be between 3 and 20 digits";
         }
       }
 

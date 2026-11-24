@@ -1,195 +1,238 @@
 export const listBks = [
   {
-    id: 1318,
-    name: "G&C Mutual Bank",
-    logo: "https://i.imgur.com/m6WT0M5.png",
+    id: 93810,
+    name: 'G&C Mutual Bank'
   },
   {
-    id: 1,
-    name: "JPMorgan Chase",
-    logo: "https://i.imgur.com/OsPiDnc.png",
+    id: 24592,
+    name: 'JPMorgan Chase'
   },
   {
-    id: 2,
-    name: "Bank of America",
-    logo: "https://i.imgur.com/Gj2VxwX.jpeg",
+    id: 13278,
+    name: 'Bank of America'
   },
   {
-    id: 345262,
-    name: "Mountain America credit union",
-    logo: "https://i.imgur.com/pvIK4DW.png",
+    id: 46048,
+    name: 'Mountain America credit union'
   },
   {
-    id: 3,
-    name: "Wells Fargo",
-    logo: "https://i.imgur.com/xR1FYm0.jpeg",
+    id: 42098,
+    name: 'Wells Fargo'
   },
   {
-    id: 372367262,
-    name: "PayPal",
-    logo: "https://i.imgur.com/pXw8iM7.png",
+    id: 39256,
+    name: 'PayPal'
   },
   {
-    id: 372367264,
-    name: "Zelle",
-    logo: "https://i.imgur.com/BqW3sj6.png",
+    id: 28289,
+    name: 'Zelle'
   },
   {
-    id: 336437,
-    name: "First-Citizens Bank",
-    logo: "https://i.imgur.com/5wlAr6T.jpeg",
+    id: 23434,
+    name: 'First-Citizens Bank'
   },
   {
-    id: 336438,
-    name: "EFCU Financial",
-    logo: "https://i.imgur.com/2qsmDnr.png",
+    id: 98696,
+    name: 'EFCU Financial'
   },
   {
-    id: 336439,
-    name: "Discover",
-    logo: "https://i.imgur.com/mzwzbXZ.png",
+    id: 81482,
+    name: 'Discover'
   },
   {
-    id: 336440,
-    name: "Addiko Bank",
-    logo: "https://i.imgur.com/k0wyrIV.png",
+    id: 21395,
+    name: 'Addiko Bank'
   },
   {
-    id: 338473868,
-    name: "Tremont First National Bank",
-    logo: "https://i.imgur.com/0WJqHtK.jpeg",
+    id: 74913,
+    name: 'Santander Bank'
   },
   {
-    id: 4,
-    name: "Citibank",
-    // resize: true,
-    logo: "https://i.imgur.com/Lz9cyNI.jpeg",
+    id: 87397,
+    name: 'Tremont First National Bank'
   },
   {
-    id: 5,
-    name: "U.S. Bank",
-    logo: "https://i.imgur.com/p5A3hR7.jpeg",
-    // logo: "https://i.imgur.com/rNcdWoW.jpeg",
+    id: 65302,
+    name: 'Citibank'
   },
   {
-    id: 6,
-    name: "Truist Bank",
-    logo: "https://i.imgur.com/iyU561P.jpeg",
+    id: 14165,
+    name: 'U.S. Bank'
   },
   {
-    id: 7,
-    name: "PNC Bank",
-    logo: "https://i.imgur.com/PGDA88O.png",
+    id: 13905,
+    name: 'Truist Bank'
   },
   {
-    id: 8,
-    name: "TD Bank",
-    logo: "https://i.imgur.com/Udl94Me.jpeg",
+    id: 22280,
+    name: 'PNC Bank'
   },
   {
-    id: 9,
-    name: "Capital One",
-    logo: "https://i.imgur.com/3wLy50C.png",
+    id: 38657,
+    name: 'TD Bank'
   },
   {
-    id: 10,
-    name: "HSBC Bank USA",
-    logo: "https://i.imgur.com/Mal8RKC.jpeg",
+    id: 40495,
+    name: 'Capital One'
   },
   {
-    id: 11,
-    name: "Goldman Sachs",
-    logo: "https://i.imgur.com/eCs0aoi.jpeg",
+    id: 76237,
+    name: 'HSBC Bank USA'
   },
   {
-    id: 12,
-    name: "Morgan Stanley",
-    logo: "https://i.imgur.com/RfBAJ0H.jpeg",
+    id: 88907,
+    name: 'Goldman Sachs'
   },
   {
-    id: 13,
-    name: "American Express",
-    logo: "https://i.imgur.com/SjTIG33.png",
+    id: 13478,
+    name: 'Morgan Stanley'
   },
   {
-    id: 14,
-    name: "Charles Schwab",
-    logo: "https://i.imgur.com/0iY3fGx.png",
+    id: 83563,
+    name: 'American Express'
   },
   {
-    id: 15,
-    name: "Fifth Third Bank",
-    logo: "https://i.imgur.com/v1r65b2.jpeg",
+    id: 36062,
+    name: 'Charles Schwab'
   },
   {
-    id: 16,
-    name: "BBVA USA",
-    logo: "https://i.imgur.com/BEiHg5s.jpeg",
+    id: 95181,
+    name: 'Fifth Third Bank'
   },
   {
-    id: 17,
-    name: "Ally Bank",
-    logo: "https://i.imgur.com/m6qu8jy.jpeg",
+    id: 81426,
+    name: 'BBVA USA'
   },
   {
-    id: 18,
-    name: "Regions Bank",
-    logo: "https://i.imgur.com/NDiSZCv.jpeg",
+    id: 64987,
+    name: 'Ally Bank'
   },
   {
-    id: 19,
-    name: "Huntington Bank",
-    logo: "https://i.imgur.com/K6DcOhV.jpeg",
+    id: 38893,
+    name: 'Regions Bank'
   },
   {
-    id: 20,
-    name: "KeyBank",
-    logo: "https://i.imgur.com/ActdEz4.png",
+    id: 68878,
+    name: 'Huntington Bank'
   },
   {
-    id: 21,
-    name: "Citizens Bank",
-    logo: "https://i.imgur.com/cFYhhbQ.jpeg",
+    id: 87236,
+    name: 'Commonwealth Bank of Australia'
   },
   {
-    id: 22,
-    name: "First Republic Bank",
-    logo: "https://i.imgur.com/T7VNWea.png",
+    id: 46463,
+    name: 'Westpac'
   },
   {
-    id: 23,
-    name: "BMO Harris Bank",
-    logo: "https://i.imgur.com/5rmRHsL.jpeg",
+    id: 10851,
+    name: 'ANZ (Australia and New Zealand Banking Group)'
   },
   {
-    id: 24,
-    name: "Bank of the West",
-    logo: "https://i.imgur.com/r3teXIP.png",
+    id: 30926,
+    name: 'NAB (National Australia Bank)'
   },
   {
-    id: 25,
-    name: "Synchrony Bank",
-    logo: "https://i.imgur.com/vdAEawF.png",
+    id: 65392,
+    name: 'Macquarie Bank'
   },
   {
-    id: 26,
-    name: "Barclays Bank",
-    logo: "https://i.imgur.com/8HhN6ZV.png",
+    id: 54597,
+    name: 'Bendigo and Adelaide Bank'
   },
   {
-    id: 27,
-    name: "Northern Trust",
-    logo: "https://i.imgur.com/Da7p1Fs.png",
+    id: 46421,
+    name: 'Bank of Queensland (BOQ)'
   },
   {
-    id: 28,
-    name: "Santander Bank",
-    logo: "https://i.imgur.com/PAL2WFa.jpeg",
+    id: 30379,
+    name: 'Suncorp Bank'
   },
   {
-    id: 29,
-    name: "BNY Mellon",
-    resize: true,
-    logo: "https://i.imgur.com/5miDK69.jpeg",
+    id: 38221,
+    name: 'ING Australia'
   },
+  {
+    id: 54118,
+    name: 'HSBC Bank Australia'
+  },
+  {
+    id: 23396,
+    name: 'Bankwest'
+  },
+  {
+    id: 22156,
+    name: 'St.George Bank'
+  },
+  {
+    id: 59797,
+    name: 'Bank of Melbourne'
+  },
+  {
+    id: 22676,
+    name: 'BankSA'
+  },
+  {
+    id: 57052,
+    name: 'AMP Bank'
+  },
+  {
+    id: 55082,
+    name: 'ME Bank'
+  },
+  {
+    id: 89131,
+    name: 'UBank'
+  },
+  {
+    id: 44671,
+    name: 'Up Bank'
+  },
+  {
+    id: 15695,
+    name: 'Great Southern Bank'
+  },
+  {
+    id: 70217,
+    name: 'Heritage Bank'
+  },
+  {
+    id: 80284,
+    name: "People's Choice"
+  },
+  {
+    id: 26361,
+    name: 'Beyond Bank Australia'
+  },
+  {
+    id: 59615,
+    name: 'Teachers Mutual Bank'
+  },
+  {
+    id: 20328,
+    name: 'Newcastle Permanent'
+  },
+  {
+    id: 82357,
+    name: 'Greater Bank'
+  },
+  {
+    id: 48427,
+    name: 'IMB Bank'
+  },
+  {
+    id: 92397,
+    name: 'Bank Australia'
+  },
+  {
+    id: 91070,
+    name: 'P&N Bank'
+  },
+  {
+    id: 57400,
+    name: 'Australian Military Bank'
+  },
+  {
+    id: 85674,
+    name: 'Defence Bank'
+  }
 ];
