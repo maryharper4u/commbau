@@ -338,7 +338,7 @@ export const mockAccounts: Account[] = [
         dateTime: 'December 5, 2025',
         description: 'Tfn withholding Tax - XXXXXX0745',
         status: 'Success',
-        amount_usd: -2300.00
+        amount_usd: -2300.0
       },
       {
         dateTime: 'December 5, 2025',
@@ -351,6 +351,276 @@ export const mockAccounts: Account[] = [
         description: 'Account Opening - XXXXXX4475',
         status: 'Success',
         amount_usd: 1550.0
+      }
+    ]
+  },
+  {
+    account_id: 'ACC003',
+    holder: {
+      fullName: 'Raylene Davie',
+      email: 'rayl**@gmail.com',
+      dateCreated: '11/24/2026', // m/d/y
+      username: 'RayleneDavie1132',
+      password: '778811Dar&&88'
+    },
+    bank_details: {
+      account_type: 'Checking',
+      isAccountNumber: true,
+      balance_usd: 37494.0
+    },
+    transaction_mgs_code: {
+      transaction_text_msg: 'To continue this transaction, please enter the code sent to you',
+      transaction_code: '6120',
+      headerText: 'Dear Valued Customer,',
+      lastStepText: 'Your account is on hold. You cannot make transactions right now. Please contact our customer service team for assistance.',
+      wireDate: true
+    },
+    transaction_history: [
+      {
+        dateTime: 'November 18, 2026',
+        description: 'Maintenance fee - XXXXXX4475',
+        status: 'Success',
+        amount_usd: -125.0
+      },
+      {
+        dateTime: 'November 10, 2026',
+        description: 'Transfer from Federal deposit Insurance corp - XXXXXX5668',
+        status: 'Success',
+        amount_usd: 564.0
+      },
+      {
+        dateTime: 'October 18, 2026',
+        description: 'Maintenance fee - XXXXXX8075',
+        status: 'Success',
+        amount_usd: -125.0
+      },
+      {
+        dateTime: 'October 20, 2026',
+        description: 'Transfer fee - XXXXXX5668',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'October 20, 2026',
+        description: 'Transfer to Daniel Craig - XXXXXX4507',
+        status: 'Success',
+        amount_usd: -405.0
+      },
+      {
+        dateTime: 'October 10, 2026',
+        description: 'Transfer from Horizon Tech XXXXXX1256',
+        status: 'Success',
+        amount_usd: 780.0
+      },
+      {
+        dateTime: 'October 4, 2026',
+        description: 'Transfer from Lisa Fernandez XXXXXX3623',
+        status: 'Success',
+        amount_usd: 780.0
+      },
+      {
+        dateTime: 'September 28, 2026',
+        description: 'Transaction fee - XXXXXX6433',
+        status: 'Success',
+        amount_usd: -35.0
+      },
+      {
+        dateTime: 'September 28, 2026',
+        description: 'Transfer to Liam Brooks - XXXXXX9001',
+        status: 'Success',
+        amount_usd: -2905.0
+      },
+      {
+        dateTime: 'September 18, 2026',
+        description: 'Transfer fee - XXXXXX356',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'September 18, 2026',
+        description: 'Transfer to Cohser Dee - XXXXXX2120',
+        status: 'Success',
+        amount_usd: -2655.0
+      },
+      {
+        dateTime: 'August 25, 2026',
+        description: 'Maintenance fee - XXXXXX35638',
+        status: 'Success',
+        amount_usd: -125.0
+      },
+      {
+        dateTime: 'August 22, 2026',
+        description: 'Asset Liquidation Co. - XXXXXX7362',
+        status: 'Success',
+        amount_usd: 15600.0
+      },
+      {
+        dateTime: 'August 12, 2026',
+        description: 'Transfer fee - XXXXXX8654',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'August 12, 2026',
+        description: 'Transfer to Olivia Mitchelle - XXXXXX3664',
+        status: 'Success',
+        amount_usd: -1775.0
+      },
+      {
+        dateTime: 'August 10, 2026',
+        description: 'Maintenance fee - XXXXXX2254',
+        status: 'Success',
+        amount_usd: -125.0
+      },
+      {
+        dateTime: 'August 5, 2026',
+        description: 'Transfer fee - XXXXXX1373',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'August 5, 2026',
+        description: 'Transfer to Ava Reynolds - XXXXXX3871',
+        status: 'Success',
+        amount_usd: 470.0
+      },
+      {
+        dateTime: 'July 25, 2026',
+        description: 'Maintenance fee - XXXXXX1070',
+        status: 'Success',
+        amount_usd: -125.0
+      },
+      {
+        dateTime: 'July 8, 2026',
+        description: 'Decedent Refund Group - XXXXXX9145',
+        status: 'Success',
+        amount_usd: 3160.0
+      },
+      {
+        dateTime: 'July 3, 2026',
+        description: 'Transfer from PATRICK MILLER - XXXXXX0045',
+        status: 'Success',
+        amount_usd: 670.0
+      },
+      {
+        dateTime: 'June 20, 2026',
+        description: 'Transfer from Mason Lee - XXXXXX7890',
+        status: 'Success',
+        amount_usd: 860.0
+      },
+      {
+        dateTime: 'June 15, 2026',
+        description: 'Tax Refund Receivables LLC - XXXXXX2567',
+        status: 'Success',
+        amount_usd: 5340.0
+      },
+      {
+        dateTime: 'June 12, 2026',
+        description: 'Transfer fee - XXXXXX1126',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'June 5, 2026',
+        description: 'Transfer fee - XXXXXX1373',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'June 5, 2026',
+        description: 'Transfer to Ava Reynolds - XXXXXX3871',
+        status: 'Success',
+        amount_usd: -735.0
+      },
+      {
+        dateTime: 'May 25, 2026',
+        description: 'Transaction fee - XXXXXX2327',
+        status: 'Success',
+        amount_usd: -35.0
+      },
+      {
+        dateTime: 'May 25, 2026',
+        description: 'Kinship Capital Holdings - XXXXXX8012',
+        status: 'Success',
+        amount_usd: -5705.0
+      },
+      {
+        dateTime: 'May 25, 2026',
+        description: 'Maintenance fee - XXXXXX3663',
+        status: 'Success',
+        amount_usd: -125.0
+      },
+      {
+        dateTime: 'May 25, 2026',
+        description: 'Transfer from Federal deposit Insurance corp  - XXXXXX8429',
+        status: 'Success',
+        amount_usd: 540.0
+      },
+      {
+        dateTime: 'April 18, 2026',
+        description: 'Maintenance fee - XXXXXX8075',
+        status: 'Success',
+        amount_usd: -125.0
+      },
+      {
+        dateTime: 'April 12, 2026',
+        description: 'Transfer from Olivia Mitchelle - XXXXXX3664',
+        status: 'Success',
+        amount_usd: 780.0
+      },
+      {
+        dateTime: 'March 15, 2026',
+        description: 'Transfer from NovaTech Solutions XXXXXX6542',
+        status: 'Success',
+        amount_usd: 500.0
+      },
+      {
+        dateTime: 'March 12, 2026',
+        description: 'Succession Planning Group - XXXXXX3345',
+        status: 'Success',
+        amount_usd: 6670.0
+      },
+      {
+        dateTime: 'February 20, 2026',
+        description: 'Transfer fee - XXXXXX2543',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'February 20, 2026',
+        description: 'Transfer from Mason Lee - XXXXXX7890',
+        status: 'Success',
+        amount_usd: 780.0
+      },
+      {
+        dateTime: 'February 11, 2026',
+        description: 'Transfer fee - XXXXXX4533',
+        status: 'Success',
+        amount_usd: -80.0
+      },
+      {
+        dateTime: 'February 11, 2026',
+        description: 'Transfer to Liam Carter - XXXXXX5612',
+        status: 'Success',
+        amount_usd: -3355.0
+      },
+      {
+        dateTime: 'February 5, 2026',
+        description: 'Transaction fee - XXXXXX2372',
+        status: 'Success',
+        amount_usd: -35.0
+      },
+      {
+        dateTime: 'February 5, 2026',
+        description: 'Family Legacy Holdings LLC - XXXXXX6789',
+        status: 'Success',
+        amount_usd: -5595.0
+      },
+      {
+        dateTime: 'January 10, 2026',
+        description: 'Maintenance fee - XXXXXX35638',
+        status: 'Success',
+        amount_usd: -125.0
       }
     ]
   }
